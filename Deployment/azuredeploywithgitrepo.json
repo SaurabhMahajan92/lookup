@@ -108,14 +108,14 @@
       "metadata": {
         "description": "The URL to the GitHub repository to deploy."
       },
-      "defaultValue": "https://github.com/parwejp/armtemplatetest1.git"
+      "defaultValue": "https://github.com/SaurabhMahajan92/lookup.git"
     },
     "gitBranch": {
       "type": "string",
       "metadata": {
         "description": "The branch of the GitHub repository to deploy."
       },
-      "defaultValue": "development"
+      "defaultValue": "master"
     }
   },
   "variables": {
