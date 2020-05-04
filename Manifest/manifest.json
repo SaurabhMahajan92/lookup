@@ -1,0 +1,55 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.5",
+    "version": "1.0.4",
+    "id": "<<App-Client-ID>>",
+    "packageName": "com.ms.wipro.kasier.dllookpupapp",
+    "developer": {
+        "name": "<<CompanyName>>",
+        "websiteUrl": "<<WebsiteUrl>>",
+        "privacyUrl": "<<PrivacyUrl>>",
+        "termsOfUseUrl": "<<TermsOfUseUrl>>"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Distribution Lists Lookup",
+        "full": "Distribution Lists Lookup"
+    },
+    "description": {
+        "short": "Distribution Lists Lookup in Microsoft Teams",
+        "full": "Distribution Lists Lookup in Microsoft Teams"
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "Home",
+            "name": "Home",
+            "contentUrl": "https://<<Appdomain>>/dls",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "help",
+            "name": "Help",
+            "contentUrl": "https://<<Appdomain>>/help",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity"      
+    ],
+    "validDomains": [
+        "<<Appdomain>>",
+        "<<TenantName>>"
+    ],
+    "webApplicationInfo": {
+        "id": "<<App-Client-ID>>",
+        "resource": "https://<<Appdomain>>"
+    }
+}

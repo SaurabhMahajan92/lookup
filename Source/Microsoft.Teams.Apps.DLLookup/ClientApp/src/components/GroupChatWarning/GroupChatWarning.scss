@@ -1,0 +1,22 @@
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    width: 8em
+}
+.footerContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    width: 100%;
+    margin-bottom: 0.8rem;
+
+
+    .buttonContainer {
+        float: right !important;  
+    
+    }
+}

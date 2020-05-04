@@ -1,0 +1,67 @@
+﻿
+.mainComponent {
+    height: 97% !important;
+    overflow-y: hidden;
+
+
+    .formContainer {
+        width: 100%;
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+        overflow-y: hidden;
+        height: 87% !important;
+
+        .formContentContainer {
+            margin-bottom: 0.5rem;
+            margin-top: 0.1rem !important;
+            overflow-y: auto !important;
+            height: 87% !important;
+            width: 100%;
+        }
+    }
+
+    .footerContainer {
+        position: relative !important;
+        bottom: 0;
+        left: 0;
+        padding: 0 !important;
+        width: 100%;
+    }
+}
+
+.pagingSegment {
+    padding: 0 !important;
+}
+.maindiv
+{
+text-align:center;
+padding-top: 200px;
+padding-bottom: 200px;
+height:100%
+}
+.contentdiv {
+    padding-top:5px;
+    height: 100vh !important;
+}
+.textstyle {
+    padding-left: 5px;
+    padding-right: 5px,
+}
+.emptydiv {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.actionSection{
+    .seperatorSpacing {
+        margin-left: 0.625rem;
+    }
+}
+#actionSection Anchor
+{
+    vertical-align:middle;
+    text-align:center;
+}
+.divstyle {
+    width: 100px;
+}

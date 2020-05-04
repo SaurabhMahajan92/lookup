@@ -1,0 +1,56 @@
+﻿.mainComponent {
+    height: 97% !important;
+    overflow-y: hidden;
+
+    .formContainer {
+        width: 100%;
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+        margin-top: 0.8rem;
+        overflow-y: hidden;
+        height:87% !important;
+        .formContentContainer {
+            margin-top: 0.8rem;
+            margin-bottom: 0.8rem;
+            overflow-y: auto !important;
+            height: 87% !important;
+            width: 98%;
+        }
+    }
+
+    .footerContainer {
+        position: relative !important;
+        bottom: 0;
+        left: 0;
+        padding: 0 !important;
+        width: 100%;
+    }
+}
+
+.ui-dropdown__container{
+    width: 10rem;
+}
+
+.pagingSegment {
+    padding: 0 !important;
+}
+.emptydiv {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.textstyle {
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.divstyle {
+    width: 100px;
+}
+
+
+.seperatorSpacing {
+    margin-left: 0.625rem;
+}

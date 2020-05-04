@@ -1,0 +1,3 @@
+[config]
+project = Source
+command = deploy.cmd

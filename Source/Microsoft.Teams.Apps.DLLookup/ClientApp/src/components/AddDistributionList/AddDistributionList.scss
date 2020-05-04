@@ -1,0 +1,38 @@
+﻿.taskModule {
+    .formContainer {
+        width: 100%;
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+        margin-top: 0.8rem;
+
+        .formContentContainer {
+            margin-top: 0.8rem;
+            overflow-y: auto !important;
+            position: absolute;
+            height: 390px;
+            width: 96.5%;
+        }
+    }
+
+    .textAlignCenter {
+    }
+
+    .highlight {
+        font-weight: bold;
+    }
+
+    .footerContainer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+        width: 100%;
+        margin-bottom: 0.8rem;
+
+        .buttonContainer {
+            display: inline;
+            float: right;
+        }
+    }
+}
