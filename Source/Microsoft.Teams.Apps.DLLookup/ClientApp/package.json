@@ -21,7 +21,7 @@
     "lodash": "^4.17.15",
     "msteams-ui-components-react": "^0.8.4",
     "msteams-ui-icons-react": "^0.4.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "office-ui-fabric-react": "^7.39.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
